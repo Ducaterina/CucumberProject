@@ -16,7 +16,7 @@ public class LoginSteps {
 	    // Write code here that turns the phrase above into concrete actions
 	    	
 		driver.get("https://www.simplilearn.com/");
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 	}
 
 	@When("I click on the Login link")

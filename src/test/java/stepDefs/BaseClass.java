@@ -14,15 +14,15 @@ public class BaseClass {
 	@Before
 	public void SetUp() {
 		
-		System.setProperty("webdriver.chrome.driver", "chromedriverNew.exe");
-		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver103.0.5060.66.exe");
+		//System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
 		
 		//wait for 5 sec for your browser to load
-		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
+		//driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 		//WebDriverWait wait = new WebDriverWait(driver,50);
 		
 	}

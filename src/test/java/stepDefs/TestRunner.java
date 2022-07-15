@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions(
 		
+		//add this plugin to form the report
 		plugin = {"html:target/htlm-cucumber","json:target/cucumber.json"},
 		
 		features="src/test/java/features",
